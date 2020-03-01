@@ -1,22 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <!--Let browser know website is optimized for mobile-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <!--Import Google Icon Font-->
     <link href="css/icon.css" rel="stylesheet">
-    <!-- Twitter Bootstrap - CSS-->
     <link href="css/bootstrap.min.css" rel="stylesheet"/>
-    <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
-    <!-- Font Awesome Icon - CSS-->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
     <link type="text/css" rel="stylesheet" href="css/style.css">
     
-    <!--Shortcut icon-->
     <link href="images/favicon.jpg" rel="shortcut icon" type="image/x-icon" />
     <title>Anil Mirge Portfolio</title>
 </head>
@@ -29,9 +23,9 @@
         </a>
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
-            <li><a aria-label="Navigate to the About section" href="#" class="waves-effect waves-dark light-blue-text active">
+            <li><a aria-label="Navigate to the About section" href="./index.html" class="waves-effect waves-dark light-blue-text active">
                 <span class="fa fa-home fa-lg"></span> Home</a></li>
-            <li><a aria-label="Navigate to the About section" href="./about.html" class="waves-effect waves-dark teal-text active">
+            <li><a aria-label="Navigate to the About section" href="#" class="waves-effect waves-dark teal-text active">
                 <span class="fa fa-info fa-lg"></span> About</a></li>
             <li><a aria-label="Navigate to the Experience section" href="./experience.html" class="waves-effect waves-dark cyan-text">
                 <span class="fa fa-wrench fa-lg"></span> Experience</a></li>
@@ -47,9 +41,9 @@
             <li><a class='dropdown-button btn' href='#' data-activates='social'>Social</a></li>
         </ul>
         <ul class="side-nav" id="mobile-demo">
-            <li><a aria-label="Navigate to the About section" href="#" class="waves-effect waves-dark light-blue-text active">
+            <li><a aria-label="Navigate to the About section" href="./index.html" class="waves-effect waves-dark light-blue-text active">
                 <span class="fa fa-home fa-lg"></span> Home</a></li>
-            <li><a aria-label="Navigate to the About section" href="./about.html" class="waves-effect waves-dark teal-text active">
+            <li><a aria-label="Navigate to the About section" href="#" class="waves-effect waves-dark teal-text active">
                 <span class="fa fa-info fa-lg"></span> About</a></li>
             <li><a aria-label="Navigate to the Experience section" href="./experience.html" class="waves-effect waves-dark cyan-text">
                 <span class="fa fa-wrench fa-lg"></span> Experience</a></li>
@@ -77,7 +71,69 @@
     </div>
 </nav>
 
+<!--About page is the default content-->
+<div id="about" class="block teal lighten-1">
+    <nav class="pushpin-demo-nav" data-target="teal">
+        <div class="nav-wrapper teal">
+            <div class="container-fluid">
+                <span class="brand-logo">About Me</span>
+            </div>
+        </div>
+    </nav>
+    <div class="slider">
+        <ul class="slides">
+            <li>
+                <img class="responsive-img" src="images/profile1.jpg"> <!-- random image -->
+                <div class="caption center-align">
+                    <h3>Nine plus years of working experience in all phases of software application design and development!</h3>
+                </div>
+            </li>
+            <li>
+                <img class="responsive-img" src="images/profile2.jpg"> <!-- random image -->
+                <div class="caption center-align">
+                    <h3>Sun Certified Java Programmer (SCJP 5.0)!</h3>
+                </div>
+            </li>
+            <li>
+                <img class="responsive-img" src="images/profile3.jpg"> <!-- random image -->
+                <div class="caption center-align">
+                    <h3>Red Hat Certified JBoss Administrator (EAP 6)!</h3>
+                </div>
+            </li>
+            <li>
+                <img class="responsive-img" src="images/profile4.jpg"> <!-- random image -->
+                <div class="caption center-align">
+                    <h3>Expert-level implementation skills with building modern web applications and single page applications (SPAs) using libraries and frameworks like jQuery, jQuery UI, Bootstrap, ReactJS, Angular and Responsive Design techniques!</h3>
+                </div>
+            </li>
+            <li>
+                <img class="responsive-img" src="images/profile5.jpg"> <!-- random image -->
+                <div class="caption center-align">
+                    <h3>Experienced mentor with the ability to work in a collaborative environment and coach other team members on coding practices, design principles, and implementation patterns that lead to high-quality maintainable solutions!</h3>
+                </div>
+            </li>
+            <li>
+                <img class="responsive-img" src="images/profile6.jpg"> <!-- random image -->
+                <div class="caption center-align">
+                    <h3>AWS Certified Solutions Architect!</h3>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
 
+<footer class="footer">
+    <div class="text-center">
+        <a title="Find me on Google Plus" href="https://plus.google.com/+AnilMirge"><i class="fa fa-google-plus"></i></a>
+        <a title="Follow me on Twitter" href="https://twitter.com/anil_mirge"><i class="fa fa-twitter"></i></a>
+        <a title="Connect with me on Linked In" href="https://www.linkedin.com/in/anilmirge"><i class="fa fa-linkedin"></i></a>
+        <a title="Fork me on Github" href="https://github.com/anilkmirge"><i class="fa fa-github"></i></a>
+        <!--                <a data-tooltip="View me on Skype" href="#"><i class="fa fa-skype"></i></a>-->
+    </div>
+    <div class="text-center text-uppercase" id="copyright">
+        <p>Anil Mirge &copy; 2018.</p>
+    </div>
+</footer>
 
 <!--Import jQuery before materialize.js-->
 <script type="text/javascript" src="js/jquery.min.js"></script>

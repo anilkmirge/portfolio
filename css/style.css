@@ -2,6 +2,10 @@ html, body {
     height: 100%;
 }
 
+body {
+    z-index: 0;
+}
+
 main {
     background: url(../images/parallax1.jpg) repeat;
     padding-left: 190px;
