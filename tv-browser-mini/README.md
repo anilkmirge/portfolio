@@ -15,7 +15,3 @@ When testing out the API's endpoint URLs, you will want to install [JSON Formatt
 - the first select option should read "Shows matching `keyword`…".
 
 3.  Whenever the user selects a title from the `#show-select` field (HINT: listen for a `"change"` event), the app should populate the `"#show-detail"` div with that show's name and image.
-
-## Take a look:
-
-https://pages.git.generalassemb.ly/seir-129/tv-browser/
