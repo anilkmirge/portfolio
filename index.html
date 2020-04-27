@@ -1,194 +1,331 @@
 <!DOCTYPE html>
 <html>
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+		<meta http-equiv="x-ua-compatible" content="ie=edge" />
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
+		<link href="css/icon.css" rel="stylesheet" />
+		<link href="css/bootstrap.min.css" rel="stylesheet" />
+		<link
+			type="text/css"
+			rel="stylesheet"
+			href="css/materialize.min.css"
+			media="screen,projection"
+		/>
+		<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+		<link type="text/css" rel="stylesheet" href="css/style.css" />
 
-    <link href="css/icon.css" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" />
-    <link type="text/css" rel="stylesheet" href="css/style.css">
+		<link href="images/favicon.jpg" rel="shortcut icon" type="image/x-icon" />
+		<title>Anil Mirge Portfolio</title>
+	</head>
 
-    <link href="images/favicon.jpg" rel="shortcut icon" type="image/x-icon" />
-    <title>Anil Mirge Portfolio</title>
-</head>
+	<body>
+		<nav id="container">
+			<div class="nav-wrapper">
+				<a href="/">
+					<span class="brand-logo logo_graphic"></span>
+				</a>
+				<a href="#" data-activates="mobile-demo" class="button-collapse"
+					><i class="material-icons">menu</i></a
+				>
+				<ul class="right hide-on-med-and-down">
+					<li>
+						<a
+							aria-label="Navigate to the About section"
+							href="./index.html"
+							class="waves-effect waves-dark light-blue-text active"
+						>
+							<span class="fa fa-home fa-lg"></span> Home</a
+						>
+					</li>
+					<li>
+						<a
+							aria-label="Navigate to the Experience section"
+							href="./experience.html"
+							class="waves-effect waves-dark cyan-text"
+						>
+							<span class="fa fa-wrench fa-lg"></span> Experience</a
+						>
+					</li>
+					<li>
+						<a
+							aria-label="Navigate to the Skills section"
+							href="./skills.html"
+							class="waves-effect waves-dark light-green-text"
+						>
+							<span class="fa fa-code fa-lg"></span> Skills</a
+						>
+					</li>
+					<li>
+						<a
+							aria-label="Navigate to the Blogs section"
+							href="/Big-O-Simplicity"
+							class="waves-effect waves-dark red-text"
+						>
+							<span class="fa fa-newspaper-o fa-lg"></span> Blog</a
+						>
+					</li>
+					<li>
+						<a
+							aria-label="Navigate to the Education section"
+							href="./education.html"
+							class="waves-effect waves-dark orange-text"
+						>
+							<span class="fa fa-graduation-cap fa-lg"></span> Education</a
+						>
+					</li>
+					<li>
+						<a
+							aria-label="Open Anil's resume in a new tab"
+							href="https://docs.google.com/document/d/1lUmyS9h3FGesc1heo3RqLIhf1MJ1H4k2kE1deu494mA/edit"
+							target="_blank"
+							class="waves-effect waves-dark yellow-text"
+						>
+							<span class="fa fa-file fa-lg"></span> Resume</a
+						>
+					</li>
+					<!-- Dropdown Trigger -->
+					<li>
+						<a class="dropdown-button btn" href="#" data-activates="social"
+							>Social</a
+						>
+					</li>
+				</ul>
+				<ul class="side-nav" id="mobile-demo">
+					<li>
+						<a
+							aria-label="Navigate to the About section"
+							href="./index.html"
+							class="waves-effect waves-dark light-blue-text active"
+						>
+							<span class="fa fa-home fa-lg"></span> Home</a
+						>
+					</li>
+					<li>
+						<a
+							aria-label="Navigate to the Experience section"
+							href="./experience.html"
+							class="waves-effect waves-dark cyan-text"
+						>
+							<span class="fa fa-wrench fa-lg"></span> Experience</a
+						>
+					</li>
+					<li>
+						<a
+							aria-label="Navigate to the Skills section"
+							href="./skills.html"
+							class="waves-effect waves-dark light-green-text"
+						>
+							<span class="fa fa-code fa-lg"></span> Skills</a
+						>
+					</li>
+					<li>
+						<a
+							aria-label="Navigate to the Awards section"
+							href="/Big-O-Simplicity"
+							class="waves-effect waves-dark red-text"
+						>
+							<span class="fa fa-newspaper-o fa-lg"></span> Blog</a
+						>
+					</li>
+					<li>
+						<a
+							aria-label="Navigate to the Education section"
+							href="./education.html"
+							class="waves-effect waves-dark orange-text"
+						>
+							<span class="fa fa-graduation-cap fa-lg"></span> Education</a
+						>
+					</li>
+					<li>
+						<a
+							aria-label="Open Anil's resume in a new tab"
+							href="https://docs.google.com/document/d/1lUmyS9h3FGesc1heo3RqLIhf1MJ1H4k2kE1deu494mA/edit"
+							target="_blank"
+							class="waves-effect waves-dark yellow-text"
+							>Resume</a
+						>
+					</li>
+					<li>
+						<a
+							class="dropdown-button btn"
+							href="#"
+							data-activates="social-mobile"
+						>
+							<span class="fa fa-file fa-lg"></span> Social</a
+						>
+					</li>
+				</ul>
+				<!-- Dropdown Structure -->
+				<ul id="social" class="dropdown-content">
+					<li>
+						<a
+							title="Follow me on Twitter"
+							href="https://twitter.com/anil_mirge"
+						>
+							<i class="fa fa-twitter"></i
+						></a>
+					</li>
+					<li>
+						<a
+							title="Connect with me on Linked In"
+							href="https://www.linkedin.com/in/anilmirge"
+						>
+							<i class="fa fa-linkedin"></i
+						></a>
+					</li>
+					<li>
+						<a title="Fork me on Github" href="https://github.com/anilkmirge">
+							<i class="fa fa-github"></i
+						></a>
+					</li>
+				</ul>
+				<ul id="social-mobile" class="dropdown-content">
+					<li>
+						<a
+							title="Follow me on Twitter"
+							href="https://twitter.com/anil_mirge"
+							><i class="fa fa-twitter"></i
+						></a>
+					</li>
+					<li>
+						<a
+							title="Connect with me on Linked In"
+							href="https://www.linkedin.com/in/anilmirge"
+							><i class="fa fa-linkedin"></i
+						></a>
+					</li>
+					<li>
+						<a title="Fork me on Github" href="https://github.com/anilkmirge"
+							><i class="fa fa-github"></i
+						></a>
+					</li>
+				</ul>
+			</div>
+		</nav>
 
-<body>
-    <nav id="container">
-        <div class="nav-wrapper">
-            <a href="/">
-                <span class="brand-logo logo_graphic"></span>
-            </a>
-            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
-                <li><a aria-label="Navigate to the About section" href="./index.html"
-                        class="waves-effect waves-dark light-blue-text active">
-                        <span class="fa fa-home fa-lg"></span> Home</a></li>
-                <li><a aria-label="Navigate to the About section" href="#"
-                        class="waves-effect waves-dark teal-text active">
-                        <span class="fa fa-info fa-lg"></span> About</a></li>
-                <li><a aria-label="Navigate to the Experience section" href="./experience.html"
-                        class="waves-effect waves-dark cyan-text">
-                        <span class="fa fa-wrench fa-lg"></span> Experience</a></li>
-                <li><a aria-label="Navigate to the Skills section" href="./skills.html"
-                        class="waves-effect waves-dark light-green-text">
-                        <span class="fa fa-code fa-lg"></span> Skills</a></li>
-                <li><a aria-label="Navigate to the Blogs section" href="/Big-O-Simplicity"
-                        class="waves-effect waves-dark red-text">
-                        <span class="fa fa-newspaper-o fa-lg"></span> Blog</a></li>
-                <li><a aria-label="Navigate to the Education section" href="./education.html"
-                        class="waves-effect waves-dark orange-text">
-                        <span class="fa fa-graduation-cap fa-lg"></span> Education</a></li>
-                <li><a aria-label="Open Anil's resume in a new tab"
-                        href="https://docs.google.com/document/d/1lUmyS9h3FGesc1heo3RqLIhf1MJ1H4k2kE1deu494mA/edit"
-                        target="_blank" class="waves-effect waves-dark yellow-text">
-                        <span class="fa fa-file fa-lg"></span> Resume</a></li>
-                <!-- Dropdown Trigger -->
-                <li><a class='dropdown-button btn' href='#' data-activates='social'>Social</a></li>
-            </ul>
-            <ul class="side-nav" id="mobile-demo">
-                <li><a aria-label="Navigate to the About section" href="./index.html"
-                        class="waves-effect waves-dark light-blue-text active">
-                        <span class="fa fa-home fa-lg"></span> Home</a></li>
-                <li><a aria-label="Navigate to the About section" href="#"
-                        class="waves-effect waves-dark teal-text active">
-                        <span class="fa fa-info fa-lg"></span> About</a></li>
-                <li><a aria-label="Navigate to the Experience section" href="./experience.html"
-                        class="waves-effect waves-dark cyan-text">
-                        <span class="fa fa-wrench fa-lg"></span> Experience</a></li>
-                <li><a aria-label="Navigate to the Skills section" href="./skills.html"
-                        class="waves-effect waves-dark light-green-text">
-                        <span class="fa fa-code fa-lg"></span> Skills</a></li>
-                <li><a aria-label="Navigate to the Awards section" href="/Big-O-Simplicity"
-                        class="waves-effect waves-dark red-text">
-                        <span class="fa fa-newspaper-o fa-lg"></span> Blog</a></li>
-                <li><a aria-label="Navigate to the Education section" href="./education.html"
-                        class="waves-effect waves-dark orange-text">
-                        <span class="fa fa-graduation-cap fa-lg"></span> Education</a></li>
-                <li><a aria-label="Open Anil's resume in a new tab"
-                        href="https://docs.google.com/document/d/1lUmyS9h3FGesc1heo3RqLIhf1MJ1H4k2kE1deu494mA/edit"
-                        target="_blank" class="waves-effect waves-dark yellow-text">Resume</a></li>
-                <li><a class='dropdown-button btn' href='#' data-activates='social-mobile'>
-                        <span class="fa fa-file fa-lg"></span> Social</a></li>
-            </ul>
-            <!-- Dropdown Structure -->
-            <ul id='social' class='dropdown-content'>
-                <li><a title="Follow me on Twitter" href="https://twitter.com/anil_mirge"><i
-                            class="fa fa-twitter"></i></a></li>
-                <li><a title="Connect with me on Linked In" href="https://www.linkedin.com/in/anilmirge"><i
-                            class="fa fa-linkedin"></i></a></li>
-                <li><a title="Fork me on Github" href="https://github.com/anilkmirge"><i class="fa fa-github"></i></a>
-                </li>
-            </ul>
-            <ul id='social-mobile' class='dropdown-content'>
-                <li><a title="Follow me on Twitter" href="https://twitter.com/anil_mirge"><i
-                            class="fa fa-twitter"></i></a></li>
-                <li><a title="Connect with me on Linked In" href="https://www.linkedin.com/in/anilmirge"><i
-                            class="fa fa-linkedin"></i></a></li>
-                <li><a title="Fork me on Github" href="https://github.com/anilkmirge"><i class="fa fa-github"></i></a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+		<!--About page is the default content-->
+		<div id="about" class="block teal lighten-1">
+			<nav class="pushpin-demo-nav" data-target="teal">
+				<div class="nav-wrapper teal">
+					<div class="container-fluid">
+						<span class="brand-logo">About Me</span>
+					</div>
+				</div>
+			</nav>
+			<div class="jumbotron">
+				<p class="lead">
+					A seasoned software expert who has developed products for enterprise
+					clients. I believe in delivering the applications that makes an
+					**impact!** while satisfying the business needs. Someone who loves
+					programming, travelling, and blogging on everything related to
+					computer science from Data Structures & Algorithms to DevOps.
+					Currently working as a Full Stack Developer & DevOps Engineer to build
+					state of the art micro services with Spring Boot and React and doing
+					continuous integration using Jenkins with Docker and Kubernetes. I
+					enjoy my obsessive attention to detail, my unequivocal passion for
+					building amazing things, and my mission-driven work ethic to change
+					the world. That's why I’m excited to make a big impact at a high
+					growth company.
+				</p>
+			</div>
+			<div class="slider">
+				<ul class="slides">
+					<li>
+						<img class="responsive-img" src="images/profile1.jpg" />
+						<!-- random image -->
+						<div class="caption center-align">
+							<h3>
+								Nine plus years of working experience in all phases of software
+								application design and development!
+							</h3>
+						</div>
+					</li>
+					<li>
+						<img class="responsive-img" src="images/profile2.jpg" />
+						<!-- random image -->
+						<div class="caption center-align">
+							<h3>Sun Certified Java Programmer (SCJP 5.0)!</h3>
+						</div>
+					</li>
+					<li>
+						<img class="responsive-img" src="images/profile3.jpg" />
+						<!-- random image -->
+						<div class="caption center-align">
+							<h3>Red Hat Certified JBoss Administrator (EAP 6)!</h3>
+						</div>
+					</li>
+					<li>
+						<img class="responsive-img" src="images/profile4.jpg" />
+						<!-- random image -->
+						<div class="caption center-align">
+							<h3>
+								Expert-level implementation skills with building modern web
+								applications and single page applications (SPAs) using libraries
+								and frameworks like jQuery, jQuery UI, Bootstrap, ReactJS,
+								Angular and Responsive Design techniques!
+							</h3>
+						</div>
+					</li>
+					<li>
+						<img class="responsive-img" src="images/profile5.jpg" />
+						<!-- random image -->
+						<div class="caption center-align">
+							<h3>
+								Experienced mentor with the ability to work in a collaborative
+								environment and coach other team members on coding practices,
+								design principles, and implementation patterns that lead to
+								high-quality maintainable solutions!
+							</h3>
+						</div>
+					</li>
+					<li>
+						<img class="responsive-img" src="images/profile6.jpg" />
+						<!-- random image -->
+						<div class="caption center-align">
+							<h3>AWS Certified Solutions Architect!</h3>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
 
-    <!--About page is the default content-->
-    <div id="about" class="block teal lighten-1">
-        <nav class="pushpin-demo-nav" data-target="teal">
-            <div class="nav-wrapper teal">
-                <div class="container-fluid">
-                    <span class="brand-logo">About Me</span>
-                </div>
-            </div>
-        </nav>
-        <div class="jumbotron">
-            <p>A seasoned software expert who has developed products for enterprise clients. I believe in delivering the
-                applications
-                that makes an **impact!** while satisfying the business needs. Someone who loves programming, travelling, and
-                blogging
-                on everything related to computer science from Data Structures & Algorithms to DevOps.
-        
-                Currently working as a Full Stack Developer & DevOps Engineer to build state of the art micro services with
-                Spring Boot
-                and React and doing continuous integration using Jenkins with Docker and Kubernetes.
-        
-                I enjoy my obsessive attention to detail, my unequivocal passion for building amazing things, and my
-                mission-driven work
-                ethic to change the world. That's why I’m excited to make a big impact at a high growth company.
-            </p>
-        </div>
-        <div class="slider">
-            <ul class="slides">
-                <li>
-                    <img class="responsive-img" src="images/profile1.jpg"> <!-- random image -->
-                    <div class="caption center-align">
-                        <h3>Nine plus years of working experience in all phases of software application design and
-                            development!</h3>
-                    </div>
-                </li>
-                <li>
-                    <img class="responsive-img" src="images/profile2.jpg"> <!-- random image -->
-                    <div class="caption center-align">
-                        <h3>Sun Certified Java Programmer (SCJP 5.0)!</h3>
-                    </div>
-                </li>
-                <li>
-                    <img class="responsive-img" src="images/profile3.jpg"> <!-- random image -->
-                    <div class="caption center-align">
-                        <h3>Red Hat Certified JBoss Administrator (EAP 6)!</h3>
-                    </div>
-                </li>
-                <li>
-                    <img class="responsive-img" src="images/profile4.jpg"> <!-- random image -->
-                    <div class="caption center-align">
-                        <h3>Expert-level implementation skills with building modern web applications and single page
-                            applications (SPAs) using libraries and frameworks like jQuery, jQuery UI, Bootstrap,
-                            ReactJS, Angular and Responsive Design techniques!</h3>
-                    </div>
-                </li>
-                <li>
-                    <img class="responsive-img" src="images/profile5.jpg"> <!-- random image -->
-                    <div class="caption center-align">
-                        <h3>Experienced mentor with the ability to work in a collaborative environment and coach other
-                            team members on coding practices, design principles, and implementation patterns that lead
-                            to high-quality maintainable solutions!</h3>
-                    </div>
-                </li>
-                <li>
-                    <img class="responsive-img" src="images/profile6.jpg"> <!-- random image -->
-                    <div class="caption center-align">
-                        <h3>AWS Certified Solutions Architect!</h3>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
+		<footer class="footer">
+			<div class="text-center">
+				<a
+					title="Find me on Google Plus"
+					href="https://plus.google.com/+AnilMirge"
+					><i class="fa fa-google-plus"></i
+				></a>
+				<a title="Follow me on Twitter" href="https://twitter.com/anil_mirge"
+					><i class="fa fa-twitter"></i
+				></a>
+				<a
+					title="Connect with me on Linked In"
+					href="https://www.linkedin.com/in/anilmirge"
+					><i class="fa fa-linkedin"></i
+				></a>
+				<a title="Fork me on Github" href="https://github.com/anilkmirge"
+					><i class="fa fa-github"></i
+				></a>
+				<!--                <a data-tooltip="View me on Skype" href="#"><i class="fa fa-skype"></i></a>-->
+			</div>
+			<div class="text-center text-uppercase" id="copyright">
+				<p>Anil Mirge &copy; 2020.</p>
+			</div>
+		</footer>
 
-    <footer class="footer">
-        <div class="text-center">
-            <a title="Find me on Google Plus" href="https://plus.google.com/+AnilMirge"><i
-                    class="fa fa-google-plus"></i></a>
-            <a title="Follow me on Twitter" href="https://twitter.com/anil_mirge"><i class="fa fa-twitter"></i></a>
-            <a title="Connect with me on Linked In" href="https://www.linkedin.com/in/anilmirge"><i
-                    class="fa fa-linkedin"></i></a>
-            <a title="Fork me on Github" href="https://github.com/anilkmirge"><i class="fa fa-github"></i></a>
-            <!--                <a data-tooltip="View me on Skype" href="#"><i class="fa fa-skype"></i></a>-->
-        </div>
-        <div class="text-center text-uppercase" id="copyright">
-            <p>Anil Mirge &copy; 2018.</p>
-        </div>
-    </footer>
-
-    <!--Import jQuery before materialize.js-->
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script type="text/javascript" src="js/highcharts.js"></script>
-    <script type="text/javascript" src="js/data.js"></script>
-    <script type="text/javascript" src="js/drilldown.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
-</body>
-
+		<!--Import jQuery before materialize.js-->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/materialize.min.js"></script>
+		<script type="text/javascript" src="js/highcharts.js"></script>
+		<script type="text/javascript" src="js/data.js"></script>
+		<script type="text/javascript" src="js/drilldown.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+	</body>
 </html>
