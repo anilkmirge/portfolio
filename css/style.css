@@ -1,129 +1,132 @@
-html, body {
-    height: 100%;
+html,
+body {
+	height: 100%;
 }
 
 body {
-    z-index: 0;
+	z-index: 0;
+	font-family: 'Space Mono', monospace;
 }
 
 main {
-    background: url(../images/parallax1.jpg) repeat;
-    padding-left: 190px;
+	background: url(../images/parallax1.jpg) repeat;
+	padding-left: 190px;
 }
 
 #intro.section {
-    background: url(../images/me.jpg) no-repeat top center/cover;
-    position: relative;
+	background: url(../images/me.jpg) no-repeat top center/cover;
+	position: relative;
 }
 .section {
-    padding-bottom: 30px;
-    padding-top: 0;
-    position: relative;
+	padding-bottom: 30px;
+	padding-top: 0;
+	position: relative;
 }
 .logo_graphic {
-    width: 10.0em;
-    height: 100%;
-    display: block;
-    background-size: cover;
-    float: left;
-    margin-right: 16px;
-    background-image: url(../images/logo.gif);
-    background-repeat: no-repeat;
+	width: 10em;
+	height: 100%;
+	display: block;
+	background-size: cover;
+	float: left;
+	margin-right: 16px;
+	background-image: url(../images/logo.gif);
+	background-repeat: no-repeat;
 }
 
 .nav-wrapper ul li a {
-    transition: .5s all ease-out;
+	transition: 0.5s all ease-out;
 }
 
 ul.no_bullet {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
 }
 
 li.leaf {
-    background: url(../images/leaf.png) no-repeat left 9px;
-    padding: 5px 0px 15px 30px;
-    display: block;
+	background: url(../images/leaf.png) no-repeat left 9px;
+	padding: 5px 0px 15px 30px;
+	display: block;
 }
 
 .card {
-    border-radius: 5px;
+	border-radius: 5px;
 }
 
 .responsibilities {
-    border-radius: 35px;
+	border-radius: 35px;
 }
 
 #social li a:hover {
-    color:black;
-    padding-left: 45px;
+	color: black;
+	padding-left: 45px;
 }
 
 #social-mobile li a:hover {
-    color: #76ff03;
-    padding-left: 120px;
+	color: #76ff03;
+	padding-left: 120px;
 }
 
 .footer {
-    background: linear-gradient(#1B242F, #000000);
-    background: -webkit-linear-gradient(#1B242F, #000000);
-    background: -moz-linear-gradient(#1B242F, #000000);
-    background: -ms-linear-gradient(#1B242F, #000000);
-    background: -o-linear-gradient(#1B242F, #000000);
-    color: #ffffff!important;
-    padding: 30px 20px;
+	background: linear-gradient(#1b242f, #000000);
+	background: -webkit-linear-gradient(#1b242f, #000000);
+	background: -moz-linear-gradient(#1b242f, #000000);
+	background: -ms-linear-gradient(#1b242f, #000000);
+	background: -o-linear-gradient(#1b242f, #000000);
+	color: #ffffff !important;
+	padding: 30px 20px;
 }
 
 .footer a {
-    color: #70726F;
-    font-size: 20px;
-    padding: 10px 25px;
-    border-right: 1px solid #70726F;
-    transition: all 0.5s ease;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
+	color: #70726f;
+	font-size: 20px;
+	padding: 10px 25px;
+	border-right: 1px solid #70726f;
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
 }
 
 .footer a:first-child {
-    border-left: 1px solid #70726F;
+	border-left: 1px solid #70726f;
 }
 
 .footer a:hover {
-    color: white;
-    font-size: 25px;
-    background-color: cyan;
+	color: white;
+	font-size: 25px;
+	background-color: cyan;
 }
 
 #copyright {
-    padding: 20px 0px 0px 0px;
-    color:  #70726F;
+	padding: 20px 0px 0px 0px;
+	color: #70726f;
 }
 
 .back-to-top img {
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
-    transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
 }
 
 .back-to-top:hover img {
-    transform: scale(1.2);
+	transform: scale(1.2);
 }
 
 .back-to-top {
-    background: none;
-    margin: 0;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    width: 70px;
-    height: 70px;
-    z-index: 100;
-    display: none;
-    text-decoration: none;
-    color: #f50057;
+	background: none;
+	margin: 0;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 70px;
+	height: 70px;
+	z-index: 100;
+	display: none;
+	text-decoration: none;
+	color: #f50057;
 }
+
