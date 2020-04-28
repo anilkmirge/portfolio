@@ -130,3 +130,8 @@ li.leaf {
 	color: #f50057;
 }
 
+a:hover {
+	text-decoration: none;
+	-webkit-text-stroke: 1px #ffffff;
+	color: transparent;
+}
